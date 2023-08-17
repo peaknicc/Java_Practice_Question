@@ -22,10 +22,13 @@ public class Application2 {
         String text = sc.nextLine();
         char[] charArray = text.toCharArray();
 
-        for(int i = 0; i < 8; i++) {
+        for(int j=8; j<14; j++) {
+            charArray[j] = '*';
+        }
+
+        for(int i = 0; i < 14; i++) {
             System.out.print(charArray[i]);
         }
-            System.out.print("******");
 
 
         /* 8번째 인덱스 부터 *로 다 대체해야함. */
