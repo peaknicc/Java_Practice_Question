@@ -9,7 +9,10 @@ public class Application2 {
          * -- 출력 예시 --
          * abcdefghijklmnopqrstuvwxyz
          * */
-
+        String alphabet = "abcdefghijklmnopqrstuvwxyz";
+        char[] alphaChar = alphabet.toCharArray();
+        for(char a : alphaChar) {
+            System.out.print(a);
+        }
     }
-
 }

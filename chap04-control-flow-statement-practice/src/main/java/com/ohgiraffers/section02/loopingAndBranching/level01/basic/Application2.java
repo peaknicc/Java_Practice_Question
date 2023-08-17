@@ -9,6 +9,11 @@ public class Application2 {
          * -- 출력 예시 --
          * 10 9 8 7 6 5 4 3 2 1
          * */
+        int a = 10;
+        for(int i=0; i<10; i++) {
+            System.out.print((a - i) + " ");
+        }
+
 
     }
 
